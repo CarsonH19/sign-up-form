@@ -1,0 +1,11 @@
+
+.leftPanel {
+    display: flex;
+    border: 5px solid black;
+
+}
+
+.rightPanel {
+    display: flex;
+    border: 5px solid black;
+}
