@@ -24,7 +24,7 @@
     display: flex;
     flex-direction: column;
     justify-content:center;
-    padding-bottom: 30vh;
+    padding-bottom: 60vh;
     background-image: url(images/earth.png);
     background-position: center;
     background-size: auto;
@@ -46,16 +46,77 @@ h1{
 }
 
 .questline {
-    height: 15vh;
+    height: 20vh;
 }
 
 /* Right */
 
 .rightPanel {
     width: 60vw;
-    background-color: #262e4f;
+    background-color: #090b12;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
 }
 
+.text {
+    font-weight: 500;
+    width: 90%;
+    font-size: 1.2rem;
+}
+
+.remoteText {
+    margin: 40px 0 80px;
+}
+
+h2 {
+    width: 100%;
+    font-size: 2.0rem;
+    font-weight: 700;
+    padding: 0px 0px 5px 0px;
+
+}
+
+.formContainer {
+    background-color: rgb(8, 6, 16);
+    box-shadow: 0 10px 20px -2px rgb(22, 22, 22);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.textField {
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    font-size: 1.0rem;
+    text-transform: uppercase;
+}
+
+input {
+    background-color: rgb(2, 2, 2);
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 3px;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0);
+    color: aqua;
+    font-weight: 700;
+    font-size: 1.2em;
+    border: 2px solid aqua;
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin: 40px 0px 0px 0px;
+}
+
+.logIn {
+    margin-top: 100px;
+}
+
+a {
+    color: rgb(254, 254, 254);
+}
