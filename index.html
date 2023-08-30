@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
     <title>Sign-up Form Project</title>
 </head>
 <body>
@@ -31,31 +34,31 @@
                     <div class="formContainer">
                         <div class="textField">
                             <label for="firstName">First Name</label>
-                            <input type="text" id="firstName">
+                            <input type="text" id="firstName" placeholder="Carson" required>
                         </div>
                         <div class="textField">
                             <label for="lastName">Last Name</label>
-                            <input type="text" id="lastName">
+                            <input type="text" id="lastName" placeholder="H" >
                         </div>
                         <div class="textField">
                             <label for="email">Email</label>
-                            <input type="text" id="email">
+                            <input type="text" id="email" placeholder="questline@gmail.com" required>
                         </div>
                         <div class="textField">
                             <label for="phoneNumber">Phone Number</label>
-                            <input type="text" id="phoneNumber">
+                            <input type="text" id="phoneNumber" placeholder="000-000-0000" minlength="9" maxlength="9">
                         </div>
                         <div class="textField">
                             <label for="password">Password</label>
-                            <input type="text" id="password">
+                            <input type="text" id="password" placeholder="********" required>
                         </div>
                         <div class="textField">
                             <label for="confirmPassword">Confirm Password</label>
-                            <input type="text" id="confirmPassword">
+                            <input type="text" id="confirmPassword" placeholder="********" required>
                         </div>
                     </div>
                     <div class="submitBtn">
-                        <button type="submit">Create</button>
+                        <button type="submit">Create Account</button>
                     </div>
                 </form>
             <div class="logIn">

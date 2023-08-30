@@ -26,7 +26,7 @@
     display: flex;
     flex-direction: column;
     justify-content:center;
-    padding-bottom: 60vh;
+    padding-bottom: 50vh;
     background-image: url(images/earth.png);
     background-position: center;
     background-size: auto;
@@ -47,13 +47,14 @@ h1{
     color: white;
     font-family: "Space Mono";
     text-shadow: 1px 1px 6px var(--color);
-    font-size: 2.2rem;
+    font-size: 2.0rem;
     text-transform: uppercase;
-    letter-spacing: 0.6rem;
+    letter-spacing: 0.5rem;
 }
 
 .questline {
-    height: 20vh;
+    height: 15vh;
+    margin-right: -15px;
 }
 
 /* Right */
@@ -81,10 +82,11 @@ h1{
 
 h2 {
     width: 100%;
-    font-size: 2.0rem;
+    font-size: 1.6rem;
     font-weight: 700;
     color: var(--color);
     padding-left: 3vw;
+    padding-bottom: 1vh;
     font-family: "Space Mono";
 
 }
@@ -92,7 +94,7 @@ h2 {
 .formContainer {
     border: 2px solid var(--color);
     background-color:  #060713;
-    box-shadow: 3px 5px 20px 0px var(--color);
+    box-shadow: 3px 1px 20px -2px var(--color);
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
@@ -107,8 +109,10 @@ h2 {
     display: flex;
     flex-flow: column wrap;
     width: 40%;
-    font-size: 1.0rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
+    letter-spacing: 0.1rem;
+
 }
 
 input {
@@ -141,3 +145,13 @@ a {
     color: var(--color);
 }
 
+input:focus{
+    outline: none;
+    border: 2px solid var(--color);
+}
+
+button:hover{
+    background-color: var(--color);
+    color: black;
+    
+}
